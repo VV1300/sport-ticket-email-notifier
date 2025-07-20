@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 
 test_sender_email = "vickyvora99@gmail.com"  # Your Gmail address
 test_receiver_email = "vickyvora99@gmail.com"  # You can send it to yourself for testing
-test_app_password = "xgwy yzam yhqi ihdx"  # 16-char Gmail App Password (not your Gmail login)
+test_app_password = ""  # 16-char Gmail App Password (not your Gmail login)
 
 
 def send_email_gmail(subject, body, sender_email, receiver_email, app_password):
